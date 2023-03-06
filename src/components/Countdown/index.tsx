@@ -3,7 +3,7 @@ import useCountdown from '../../hooks/useCountdown'
 import './Countdown.scss'
 
 export const Countdown = () => {
-    const END_DATE = "Tue Oct 04 2022 14:00 UTC";
+    const END_DATE = new Date(1709677717000).toUTCString();
     const countdown = useCountdown(END_DATE);
     const [date, setDate ] = React.useState(countdown.getTimeUntil());
     
