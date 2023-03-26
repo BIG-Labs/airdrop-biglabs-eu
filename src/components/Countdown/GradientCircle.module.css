@@ -1,9 +1,5 @@
 .main {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
 }
 
 .g {
@@ -31,7 +27,7 @@
   height: 100%;
   display: flex;
   position: absolute;
-  top: 0;
+  top: -.6rem;
   justify-content: center;
   align-items: center;
 }
