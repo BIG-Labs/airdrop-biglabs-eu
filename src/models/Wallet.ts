@@ -1,6 +1,6 @@
 import { Chain } from "./Chain";
 
-export type WalletId = 'station' | 'stationmobile' | 'keplr' | 'metamask' | 'phantom' | string;
+export type WalletId = 'metamask' | string;
 
 export type Wallet = {
     id: WalletId,

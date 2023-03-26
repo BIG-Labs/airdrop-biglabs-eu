@@ -1,8 +1,13 @@
 .Countdown {
     max-width: fit-content;
     margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
     
     a {
-        color: royalblue;
+        color: #412e77;
     }
 }
