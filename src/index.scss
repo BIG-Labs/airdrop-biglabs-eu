@@ -15,12 +15,7 @@ body {
   font-family: "Gotham book", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(
-    180deg,
-    #412e77 0%,
-    #412e77 5%,
-    #3C79F5 100%,
-  );
+  background-image: linear-gradient(180deg, black 0%, black 5%, #851db7 100%);
   color: #dbdbdb !important;
   min-height: 100vh;
 }

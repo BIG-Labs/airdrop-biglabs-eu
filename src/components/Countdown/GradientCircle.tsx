@@ -12,9 +12,9 @@ export default function GradientCircle({
       >
         <defs>
           <linearGradient id='gradient' x1='0%' y1='0%' x2='0%' y2='100%'>
-            <stop offset='0%' stopColor='#412e77' />
-            <stop offset='25%' stopColor='#3c79f5' />
-            <stop offset='100%' stopColor='#412e77' />
+            <stop offset='0%' stopColor='#851db7' />
+            <stop offset='25%' stopColor='gray' />
+            <stop offset='100%' stopColor='#851db7' />
           </linearGradient>
         </defs>
         <g className={styles.g}>

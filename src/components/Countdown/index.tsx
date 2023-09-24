@@ -107,6 +107,7 @@ export default function Timer({
           href="https://agora.terra.money/discussion/6647-final-proposal-terra-phoenix-airdrop"
           target="_blank"
           rel="noreferrer"
+          style={{ color: "#851db7" }}
         >
           Agora
         </a>
