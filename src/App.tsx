@@ -133,8 +133,8 @@ function App() {
         </CardActions>
         <CardActions className="center">
           <Timer
-            start={1678055317 || 0}
-            end={1709677717 || 0}
+            start={1696782280 || 0}
+            end={1699380000 || 0}
             description={"AIRDROP END"}
           />
         </CardActions>

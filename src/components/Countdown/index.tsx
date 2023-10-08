@@ -13,7 +13,7 @@ export default function Timer({
 }) {
   const currentTime = Math.floor(new Date().getTime() / 1000);
   const FULL_DASH_ARRAY: number = 283;
-  const END_DATE = new Date(1709677717000).toUTCString();
+  const END_DATE = new Date(1699380000000).toUTCString();
   const ref = useRef<NodeJS.Timer>();
   const [timerData, setTimerData] = useState<{
     currentTime: number;
@@ -104,7 +104,7 @@ export default function Timer({
       <span style={{ textAlign: "center" }}>
         As laid out in{" "}
         <a
-          href="https://agora.terra.money/discussion/6647-final-proposal-terra-phoenix-airdrop"
+          href="https://agora.terra.money/discussion/13006-airdrop-for-missed-protocols"
           target="_blank"
           rel="noreferrer"
           style={{ color: "#851db7" }}
